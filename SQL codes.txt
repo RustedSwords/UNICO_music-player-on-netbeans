@@ -1,0 +1,23 @@
+Database:-
+Create database Unico;
+
+Table Signup:-
+Create Table Signup(
+First_Name   Varchar(30),
+Last_Name    Varchar(30),
+Username     Varchar(30) primary key,
+Email_ID     Varchar(100),
+Password     Varchar(16),
+Address      Varchar(150),
+City         Varchar(80),
+Pin_Code     Varchar(10)
+);
+
+
+Table Buy:-
+Create Table Buy(
+Username    Varchar(50),
+Song        Varchar(100),
+Price       Varchar(10),
+Date        date
+);
